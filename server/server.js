@@ -15,7 +15,7 @@ app.use(cors());
 
 
 //For obvious reasons I am not hardcoding my password in here.
-const CONNECTION_URL = "mongodb+srv://Hank:Hankman@cluster0.qqkfd0n.mongodb.net/?retryWrites=true&w=majority";
+const CONNECTION_URL = "mongodb+srv://Hank:<password>@cluster0.qqkfd0n.mongodb.net/?retryWrites=true&w=majority";
 const PORT = process.env.PORT || 3001;
 
 //Connects the web app to MongoDBAtlas(where the database is hosted).
